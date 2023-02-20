@@ -8,3 +8,5 @@
 *.br lfs
 *.bin lfs
 *.dic lfs
+*.data lfs
+*.wasm lfs
