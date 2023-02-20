@@ -10,3 +10,4 @@
 *.dic lfs
 *.data lfs
 *.wasm lfs
+*.unityweb lfs
