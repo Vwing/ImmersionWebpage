@@ -1,0 +1,1 @@
+class MicrophoneAudioProcessor extends AudioWorkletProcessor{constructor(){super()}process(e,o,r){var s=null;for(let t=0;t<e.length;t++){let n=e[t];s={channels:n.length,data:[]};for(let l=0;l<n.length;l++)s.data[l]=n[l];this.port.postMessage(s)}return!0}}registerProcessor("microphone-worklet",MicrophoneAudioProcessor);
